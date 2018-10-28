@@ -4,7 +4,7 @@ import C from './components/C.vue';
 
 // インポートしたコンポーネントを表示したいパスと結びつける
 export const routes = [
-  { path: '/a', components: A},
-  { path: '/b', components: B},
-  { path: '/c', components: C},
+  { path: '/a', component: A },
+  { path: '/b', component: B },
+  { path: '/c', component: C },
 ];
