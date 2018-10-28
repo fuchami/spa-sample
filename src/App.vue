@@ -2,6 +2,7 @@
   <div id=app>
     <div class='header'>ヘッダーです</div>
     <router-view></router-view>
+    <br>
     <div class='footer'>フッターです</div>
   </div>
 </template>

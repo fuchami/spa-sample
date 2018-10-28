@@ -3,8 +3,11 @@
     <p>
       ここはAのページ
     </p>
-    <router-link to='/b'>Go to PageB</router-link>
+    <md-button class="md-primary">
+      <router-link to='/b'>PageB</router-link>
+    </md-button>
   </div>
+
 </template>
 
 <script>
