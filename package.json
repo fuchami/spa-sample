@@ -12,7 +12,8 @@
   "dependencies": {
     "vue": "^2.5.11",
     "vue-material": "^1.0.0-beta-10.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.3.3"
   },
   "browserslist": [
     "> 1%",
