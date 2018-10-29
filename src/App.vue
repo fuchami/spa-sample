@@ -3,7 +3,22 @@
 
     <v-app id="inspire">
       <v-toolbar app>
-        <v-toolbar-title>fuchami page</v-toolbar-title>
+        <v-toolbar-title>
+          <router-link to='/'>fuchami pages</router-link>
+        </v-toolbar-title>
+        <v-spacer></v-spacer>
+
+        <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn flat>
+            <router-link to='./about'>about</router-link>
+          </v-btn>
+          <v-btn flat>
+            <router-link to='./skill'>skill</router-link>
+          </v-btn>
+          <v-btn flat>
+            <router-link to='./work'>work</router-link>
+          </v-btn>
+        </v-toolbar-items>
       </v-toolbar>
       <v-navigator-drawer app></v-navigator-drawer>
       <v-content>

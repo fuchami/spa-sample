@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      skillのページ
+      いままで作ったもの
     </h1>
       <router-link to='/'>top</router-link>
   </div>
