@@ -10,7 +10,9 @@ import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify'
 
 Vue.use(VueRouter)
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  iconfont: 'fa' || 'mdi'
+})
 
 const router = new VueRouter({
   routes
