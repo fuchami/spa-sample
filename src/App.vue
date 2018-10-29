@@ -7,10 +7,7 @@
       </v-toolbar>
       <v-navigator-drawer app></v-navigator-drawer>
       <v-content>
-        <v-vontainer fluid>
-          やあ，ここはfuchamiのページだよ
           <router-view></router-view>
-        </v-vontainer>
       </v-content>
 
       <v-footer dark height="auto">

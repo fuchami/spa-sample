@@ -1,19 +1,19 @@
-import A from './components/A.vue';
-import B from './components/B.vue';
-import C from './components/C.vue';
+import top from './components/top.vue';
+import about from './components/about.vue';
+import skill from './components/skill.vue';
 
 // インポートしたコンポーネントを表示したいパスと結びつける
 export const routes = [
   { 
-    path: '/a', 
-    component: A
+    path: '/', 
+    component: top
   },
   { 
-    path: '/b', 
-    component: B 
+    path: '/about', 
+    component: about 
   },
   { 
-    path: '/c', 
-    component: C 
+    path: '/skill', 
+    component: skill 
   },
 ];
