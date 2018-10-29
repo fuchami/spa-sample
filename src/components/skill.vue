@@ -1,8 +1,7 @@
 <template>
   <div>
     <h1>
-      いままで作ったもの
+      スキルです
     </h1>
-      <router-link to='/'>top</router-link>
   </div>
 </template>

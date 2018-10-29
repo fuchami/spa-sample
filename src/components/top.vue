@@ -1,10 +1,9 @@
 <template>
   <div>
-    <p>
-      ここはtopのページ
-    </p>
-      <router-link to='/about'>about</router-link>
-      <router-link to='/skill'>skill</router-link>
+    <h1>
+      hello fuchami pages
+    </h1>
+
   </div>
 
 </template>
