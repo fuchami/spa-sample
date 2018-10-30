@@ -4,11 +4,11 @@
     <v-app id='inspire' light>
       <v-content>
         <v-container>
-          <v-layout row wrap align-center>
+          <v-layout row wrap >
             <v-flex md8 offset-md2>
               <div v-for="work in works" :key="work.title">
-                <v-card class="my-3" hover>
-                  <v-card-media class="white--text" height='170px' :src="require('../assets/images/denoise-pix2pix.png')">
+                <v-card class="mt-4 mb-4 pa-2" hover>
+                  <v-card-media class="white--text" width='50%' v-bind:src="work.img_url">
                     <v-container fill-height fluid>
                       <v-layout>
                         <v-flex xs12 align-end d-flex>
@@ -50,19 +50,23 @@
   export default {
     data () {
       return{
-        card_text: 'test',
-
         works: [
           {
             title: "denoise pix2pix",
             content: '生成モデルを用いて画像に付与しているノイズ(ごま塩ノイズ)を除去を行いました.モデルにはGANと呼ばれる生成モデルのひとつであるpix2pixを使用しています．',
-            img_url: './denoise-pix2pix.png',
+            img_url: '/src/assets/images/denoise-pix2pix.png',
             github_url: 'https://github.com/fuchami/denoise_pix2pix'
+          },
+          {
+            title: "pokemon GAN",
+            content:'DCGANを用いてポケモンのドット絵を生成するモデルを作りました',
+            img_url:'',
+            github_url:'https:/github.com/fuchami/pokeGAN'
           },
           {
             title: "西野カナ歌詞生成bot",
             content: 'TwitterAPIを用いて西野カナの楽曲の歌詞を収集し，それらを元に西野カナ風の歌詞をツイートするbotです．現在停止中',
-            img_url: ''
+            img_url: '/src/assets/images/kana.png'
           }
         ]
       }
