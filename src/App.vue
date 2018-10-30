@@ -28,9 +28,7 @@
       <v-footer dark height="auto">
         <v-card class="flex" flat tile>
 
-          <v-card-title class="indigo lighten-1">
-            <strong class="subheading">
-            </strong>
+          <v-card-title class="cyan darken-2">
 
             <v-spacer></v-spacer>
 
